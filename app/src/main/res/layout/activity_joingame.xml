@@ -10,25 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.spartahacks.app.bargamescores.JoinGameActivity">
 
-    <TextView
-        android:layout_width="@dimen/mainactivity_btn_width"
-        android:layout_height="@dimen/mainactivity_btn_height"
-        android:id="@+id/joinactivity_codeLabel"
-        android:text="@string/joinactivity_codeLabel_txt"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:textSize="@dimen/joinactivity_codeLabel_textSize"
-        android:layout_marginTop="@dimen/mainactivity_createBtn_marginTop"
-        />
 
     <EditText
         android:layout_width="@dimen/mainactivity_btn_width"
-        android:layout_height="@dimen/mainactivity_btn_height"
+        android:layout_height="60dp"
         android:id="@+id/joinactivity_codeInputTextBox"
         android:lines="1"
+        android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/mainactivity_joinBtn_marginBottom"
+        android:hint="Enter Code"
+        android:textSize="30sp"
         />
 
     <Button
@@ -36,8 +28,10 @@
         android:layout_height="@dimen/mainactivity_btn_height"
         android:id="@+id/joinactivity_submitBtn"
         android:text="@string/joinactivity_submitBtn_txt"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        />
+
+        android:layout_alignTop="@+id/joinactivity_codeInputTextBox"
+        android:layout_alignLeft="@+id/joinactivity_codeInputTextBox"
+        android:layout_alignStart="@+id/joinactivity_codeInputTextBox"
+        android:layout_marginTop="86dp" />
 
 </RelativeLayout>
