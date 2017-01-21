@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BarGameScores</string>
+    <string name="joinactivity_codeLabel_txt">Code:</string>
+    <string name="mainpage_createBtn">Create New Game</string>
+    <string name="mainpage_joinBtn">Join Game</string>
+    <string name="joinactivity_submitBtn_txt">Start</string>
+</resources>
