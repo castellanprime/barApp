@@ -14,19 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
-    }
-
-    protected void onClickJoinGameActivity(View view){
-        Intent intent = new Intent(this, JoinGameActivity.class);
-        startActivity(intent);
-    }
-
-    protected void onClickCreateGameActivity(View view){
-        Intent intent = new Intent(this, CreateGameActivity.class);
-        startActivity(intent);
-=======
 
         final Button createGameButton = (Button) findViewById(R.id.createGameButton);
         final Button joinGameButton = (Button) findViewById(R.id.joinGameButton);
@@ -55,6 +42,5 @@ public class MainActivity extends AppCompatActivity {
                 setContentView(R.layout.activity_joingame);
             }
         });
->>>>>>> 981c2084a72ac2c37cad7dcbccccda54a6533de6
     }
 }

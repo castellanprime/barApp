@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.spartahacks.app.bargamescores">
-    <uses-permission android:name="android.permission.INTERNET"/>
+<<<<<<< HEAD
+
     <uses-permission
         android:required="true"
         android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -12,6 +13,9 @@
         android:required="true"
         android:name="android.permission.INTERNET"/>
 
+=======
+    <uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> 981c2084a72ac2c37cad7dcbccccda54a6533de6
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

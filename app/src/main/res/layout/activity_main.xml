@@ -13,6 +13,7 @@
     <Button
         android:layout_width="@dimen/mainactivity_btn_width"
         android:layout_height="@dimen/mainactivity_btn_height"
+<<<<<<< HEAD
         android:id="@+id/joinGameButton"
         android:text="@string/mainpage_joinBtn"
         android:onClick="onClickJoinGameActivity"
@@ -23,6 +24,8 @@
     <Button
         android:layout_width="@dimen/mainactivity_btn_width"
         android:layout_height="@dimen/mainactivity_btn_height"
+=======
+>>>>>>> 981c2084a72ac2c37cad7dcbccccda54a6533de6
         android:id="@+id/createGameButton"
         android:text="@string/mainpage_createBtn"
         android:onClick="onClickCreateGameActivity"
@@ -31,5 +34,22 @@
         android:layout_alignStart="@+id/joinGameButton"
         android:layout_marginTop="@dimen/mainactivity_createBtn_marginTop" />
 
+    <Button
+        android:layout_width="@dimen/mainactivity_btn_width"
+        android:layout_height="@dimen/mainactivity_btn_height"
+        android:id="@+id/joinGameButton"
+        android:text="@string/mainpage_joinBtn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/mainactivity_btn_width"
+        android:layout_height="@dimen/mainactivity_btn_height"
+        android:id="@+id/sendSpamButton"
+        android:text="@string/mainpage_spamBtn"
+        android:layout_marginBottom="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/joinGameButton"
+        android:layout_alignStart="@+id/joinGameButton" />
 
 </RelativeLayout>

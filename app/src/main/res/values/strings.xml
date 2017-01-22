@@ -4,4 +4,7 @@
     <string name="mainpage_createBtn">Create New Game</string>
     <string name="mainpage_joinBtn">Join Game</string>
     <string name="joinactivity_submitBtn_txt">Start</string>
+    <string name="mainpage_spamBtn">Spam here</string>
+    <string name="api_url">35.22.5.163</string>
+    <string name="api_port">5000</string>
 </resources>

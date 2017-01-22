@@ -1,0 +1,36 @@
+diff --cc app/src/main/AndroidManifest.xml index 
+43d968e,8601246..0000000 --- a/app/src/main/AndroidManifest.xml +++ 
+b/app/src/main/AndroidManifest.xml @@@ -1,30 -1,16 +1,33 @@@
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.spartahacks.app.bargamescores"> ++<<<<<<< HEAD
+ +
+ + <uses-permission
+ + android:required="true"
+ + android:name="android.permission.ACCESS_WIFI_STATE"/>
+ + <uses-permission
+ + android:required="true"
+ + android:name="android.permission.CHANGE_WIFI_STATE"/>
+ + <uses-permission
+ + android:required="true"
+ + android:name="android.permission.INTERNET"/>
+ + ++======= + <uses-permission 
+android:name="android.permission.INTERNET"/> ++>>>>>>> 
+981c2084a72ac2c37cad7dcbccccda54a6533de6
+      <application
+          android:allowBackup="true"
+          android:icon="@mipmap/ic_launcher"
+          android:label="@string/app_name"
+          android:supportsRtl="true"
+          android:theme="@style/AppTheme">
+ - <activity android:name=".MainActivity">
+ + <activity
+ + android:name=".SplashActivity"
+ + android:label="@string/app_name"
+ + android:theme="@style/SplashTheme">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" /> -
+                  <category 
+android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>

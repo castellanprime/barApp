@@ -28,7 +28,10 @@
         android:layout_height="@dimen/mainactivity_btn_height"
         android:id="@+id/joinactivity_submitBtn"
         android:text="@string/joinactivity_submitBtn_txt"
+<<<<<<< HEAD
         android:onClick="onClickLoadGameFragment"
+=======
+>>>>>>> 981c2084a72ac2c37cad7dcbccccda54a6533de6
         android:layout_alignTop="@+id/joinactivity_codeInputTextBox"
         android:layout_alignLeft="@+id/joinactivity_codeInputTextBox"
         android:layout_alignStart="@+id/joinactivity_codeInputTextBox"
