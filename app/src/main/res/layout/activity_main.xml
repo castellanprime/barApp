@@ -15,6 +15,7 @@
         android:layout_height="@dimen/mainactivity_btn_height"
         android:id="@+id/joinGameButton"
         android:text="@string/mainpage_joinBtn"
+        android:onClick="onClickJoinGameActivity"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/mainactivity_joinBtn_marginBottom" />
@@ -24,6 +25,7 @@
         android:layout_height="@dimen/mainactivity_btn_height"
         android:id="@+id/createGameButton"
         android:text="@string/mainpage_createBtn"
+        android:onClick="onClickCreateGameActivity"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/joinGameButton"
         android:layout_alignStart="@+id/joinGameButton"

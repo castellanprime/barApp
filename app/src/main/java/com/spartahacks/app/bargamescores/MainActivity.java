@@ -14,21 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
+    }
 
-        final Button createButton = (Button) findViewById(R.id.createGameButton);
-        final Button joinGameButton = (Button) findViewById(R.id.joinGameButton);
+    protected void onClickJoinGameActivity(View view){
+        Intent intent = new Intent(this, JoinGameActivity.class);
+        startActivity(intent);
+    }
 
-        createButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Intent intent = Intent(this, CreateGameActivity.class);
-                setContentView(R.layout.activity_creategame);
-            }
-        });
-
-        joinGameButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                setContentView(R.layout.activity_joingame);
-            }
-        });
+    protected void onClickCreateGameActivity(View view){
+        Intent intent = new Intent(this, CreateGameActivity.class);
+        startActivity(intent);
     }
 }
