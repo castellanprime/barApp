@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.spartahacks.app.bargamescores.CreateGameActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/startgame_gamename_textbox"
+        android:hint="Game Name"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/startgame_gamename_textbox"
+        android:text="Enter Rules"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/startgamefrag_gamerules_textlabel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startgamefrag_gamerules_textlabel"
+        android:layout_marginTop="5dp"
+        android:id="@+id/startgamefrag_browseRulesBtn"
+        android:text="Browse For Rules" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_alignBaseline="@id/startgamefrag_browseRulesBtn"
+        android:layout_alignBottom="@id/startgamefrag_browseRulesBtn"
+        android:layout_toRightOf="@id/startgamefrag_browseRulesBtn"
+        android:layout_toEndOf="@id/startgamefrag_browseRulesBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" 
+        android:id="@+id/startgamefrag_or_textlabel"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startgamefrag_gamerules_textlabel"
+        android:layout_alignBaseline="@+id/startgamefrag_browseRulesBtn"
+        android:layout_alignBottom="@+id/startgamefrag_browseRulesBtn"
+        android:layout_toRightOf="@id/startgamefrag_or_textlabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/startgamefrag_enterRulesBtn"
+        android:text="Create Rules" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/startgamefrag_numbers_textlabel"
+        android:layout_below="@id/startgamefrag_browseRulesBtn"
+        android:layout_marginTop="15dp"
+        android:text="Enter Numbers"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startgamefrag_numbers_textlabel"
+        android:layout_marginTop="5dp"
+        android:id="@+id/startgamefrag_browseNumbersBtn"
+        android:text="Get Contacts" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@id/startgamefrag_numbers_textlabel"
+        android:layout_alignBaseline="@id/startgamefrag_browseNumbersBtn"
+        android:layout_alignBottom="@id/startgamefrag_browseNumbersBtn"
+        android:layout_toRightOf="@id/startgamefrag_browseNumbersBtn"
+        android:layout_toEndOf="@id/startgamefrag_browseNumbersBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/startgamefrag_or_textlabel_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startgamefrag_enterNumbersButton"
+        android:text="Create Phone List"
+        android:layout_alignBaseline="@+id/startgamefrag_or_textlabel_2"
+        android:layout_alignBottom="@+id/startgamefrag_or_textlabel_2"
+        android:layout_toRightOf="@id/startgamefrag_or_textlabel_2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/mainactivity_btn_height"
+        android:text="Start"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/startgamefrag_browseNumbersBtn"
+        android:layout_marginTop="30dp"
+        android:id="@+id/startgamefrag_startBtn"/>
+
+</RelativeLayout>
