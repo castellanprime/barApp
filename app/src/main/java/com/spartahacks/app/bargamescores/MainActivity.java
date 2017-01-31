@@ -15,13 +15,4 @@ public class MainActivity extends AppCompatActivity {
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
     }
 
-    protected void onClickJoinGameActivity(View view){
-        Intent intent = new Intent(this, JoinGameActivity.class);
-        startActivity(intent);
-    }
-
-    protected void onClickCreateGameActivity(View view) {
-        Intent intent = new Intent(this, CreateGameActivity.class);
-        startActivity(intent);
-    }
 }
