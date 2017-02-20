@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_createGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.spartahacks.app.bargamescores.CreateGameActivity">
+
+   <EditText
+       android:id="@+id/search_games"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:paddingLeft="@dimen/searchPage_searchBar_marginTop_port"
+       android:paddingRight="@dimen/searchPage_searchBar_marginTop_port"
+       android:hint="@string/searchPage_searchBar_hint"
+       android:textSize="@dimen/searchPage_searchBar_textSize"
+       android:layout_marginTop="@dimen/searchPage_searchBar_marginTop_port"
+       />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_list_view"
+        android:layout_below="@id/search_games"
+        android:layout_marginTop="@dimen/searchPage_searchBar_marginTop_port"
+        android:layout_alignLeft="@id/search_games">
+    </ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/searchPage_add_your_own_game_btn"
+            android:text="ADD YOUR OWN GAME"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_create_black_18dp"
+            android:textColor="@color/white"
+            android:background="@color/teal"
+            style="@style/Widget.AppCompat.Button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/searchPage_next_btn"
+            android:layout_marginLeft="8dp"
+            android:text="NEXT"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_done_black_18dp"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            style="@style/Widget.AppCompat.Button"/>
+    </LinearLayout>
+
+</RelativeLayout>

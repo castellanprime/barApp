@@ -2,9 +2,15 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="mainactivity_btn_width">160dp</dimen>
-    <dimen name="mainactivity_btn_height">80dp</dimen>
-    <dimen name="mainactivity_joinBtn_marginBottom">160dp</dimen>
-    <dimen name="mainactivity_createBtn_marginTop">80dp</dimen>
-    <dimen name="joinactivity_codeLabel_textSize">60sp</dimen>
+    <dimen name="twoBtnPage_width_portait">160dp</dimen>
+    <dimen name="twoBtnPage_height_portait">64dp</dimen>
+    <dimen name="twoBtnPage_margin">160dp</dimen>
+    <dimen name="twoBtnPage_secBtn_marginTop_land">14dp</dimen>
+    <dimen name="twoBtnPage_firstBtn_marginTop_land">58dp</dimen>
+    <dimen name="searchPage_searchBar_marginTop_port">20dp</dimen>
+    <dimen name="searchPage_searchBar_textSize">20sp</dimen>
+    <dimen name="searchPage_view_height">1dp</dimen>
+    <dimen name="searchPage_gameList_padding">8dp</dimen>
+    <dimen name="searchPage_list_item_textSize">14sp</dimen>
+    <dimen name="searchPage_listItem_checkbox_padding">4dp</dimen>
 </resources>

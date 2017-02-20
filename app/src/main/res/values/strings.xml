@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">BarGameScores</string>
-    <string name="joinactivity_codeLabel_txt">Code:</string>
-    <string name="mainpage_createBtn">Create New Game</string>
-    <string name="mainpage_joinBtn">Join Game</string>
-    <string name="joinactivity_submitBtn_txt">Start</string>
-    <string name="mainpage_spamBtn">Spam here</string>
-    <string name="api_url">35.22.5.163</string>
-    <string name="api_port">5000</string>
+    <string name="createNewGameBtn_label">Create New Game</string>
+    <string name="joinGameBtn_label">Join Game</string>
+    <string name="searchPage_searchBar_hint">Enter your game</string>
+    <string name="searchPage_createFragment_name_label">Name</string>
+    <string name="searchPage_createFragment_desc_label">Desc</string>
+    <string name="searchPage_listItem_descBtn_label">Desc</string>
+    <string name="searchPage_listitem_game_rules">Rules</string>
 </resources>
